@@ -32,8 +32,7 @@ TODO: Describe each use case (at least one per team member).
 
 TODO: Your Use-Case diagram should include all use-cases.
 
-![Insert your Use-Case Diagram Here](![image](https://github.com/szyma28/szyma28.github.io/assets/132958667/c83be728-f675-4cec-9ba5-280d6ba92483)
-)
+![Insert your Use-Case Diagram Here](https://github.com/szyma28/szyma28.github.io/blob/main/docs/UseCase2%20toilet%20finder.png)
 
 ## Software Requirements Specification
 ### Functional requirements
