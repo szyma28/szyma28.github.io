@@ -17,6 +17,9 @@ TODO: Describe each use case (at least one per team member).
     Give each use case a unique ID, e.g. UC1, UC2, ...
     Summarise these using the use-case template below.
 
+    ![image](https://github.com/szyma28/szyma28.github.io/assets/132958667/499adcc8-4ddc-4503-ab43-f9d81cdfd87e)
+
+
 | TODO: USE-CASE ID e.g. UC1, UC2, ... | TODO: USE-CASE NAME | 
 | -------------------------------------- | ------------------- |
 | **Description** | TODO: Goal to be achieved by use case and sources for requirement |
