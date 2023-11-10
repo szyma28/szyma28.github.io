@@ -31,6 +31,7 @@ TODO: Describe each use case (at least one per team member).
 
 
 TODO: Your Use-Case diagram should include all use-cases.
+
 ![image](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UserCase1.png) Use Case 1
 
 ![image](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UseCase2%20toilet%20finder.png) Use Case 2
