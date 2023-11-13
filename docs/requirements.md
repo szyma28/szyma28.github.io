@@ -37,13 +37,13 @@ Use Cases
 ![Use Case 2/Eryk](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UseCase2%20toilet%20finder.png)
 
 
-## Software Requirements Specification
-### Functional requirements
-###Functional requirements
+## Software Requirements Specification<br>
+### Functional requirements<br>
+###Functional requirements<br>
 **FR1.1 The system should get permission to access user location via geolocation navigator <br>
-**FR1.2 The system should query the database for public toilets from Open Data Bristol
-**FR1.3 The system should centre the map on the user location useing the map object.
-**FR1.4 The system should add markers for each public toilet using the map object.
+**FR1.2 The system should query the database for public toilets from Open Data Bristol<br>
+**FR1.3 The system should centre the map on the user location useing the map object.<br>
+**FR1.4 The system should add markers for each public toilet using the map object.<br>
 
 
 
