@@ -10,8 +10,12 @@ Imagine you're out and about outside doing whatever you are doing be it shopping
 ### Business benefits
 TODO: List high-level benefits that this product will provide.
 
+Chance to find usable public toilets using this one single app, with the ability to not show any that are usable only after you pay, saving money of our users is at the forefront of our mindset. The website will display information about the toilets like opening times, accessibility informations, gender or if they're unisex and a lot more that will save the time of our customers who need this kind of information.
+
 ### Options Considered
 TODO: What are some other customer options or leading products that address the same needs?
+
+
 
 ### Expected Risks
 TODO: What are the main risks of this project?
