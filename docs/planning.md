@@ -15,7 +15,7 @@ Chance to find usable public toilets using this one single app, with the ability
 ### Options Considered
 TODO: What are some other customer options or leading products that address the same needs?
 
-
+First quick google comes up with a Google Play link to a "Toilet Finder" app by BeTommorow. The android app will lead you by a map to a nearest toilet. It's database of toilets is maintained by the apps own community that add new new toilets and remove any that close.
 
 ### Expected Risks
 TODO: What are the main risks of this project?
