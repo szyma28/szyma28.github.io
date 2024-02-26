@@ -20,6 +20,8 @@ TODO: What are some other customer options or leading products that address the 
 ### Expected Risks
 TODO: What are the main risks of this project?
 
+The app does not update on time if some changes are made with a public toilet or public toilet is removed for some reason. For example if a public toilet is removed from it's original location or relocated and the app us not updated, it could lead the customer to a wrong destination.
+
 ## Project Scope
 TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
 
