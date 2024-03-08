@@ -7,7 +7,7 @@ TODO: Write brief user stories to explain how various actors would interact with
     Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
 
 As a human with needs, I want to find a toilet near me so that i can relieve myself.
-As someone who forgot their wallet at home, I want to find a free public toilet near me so that i can use it without the need to pay for it.
+As someone who forgot their wallet at home, I want to find a free public toilet near me so that i can use it without the need to pay for it.  <!-- Eryk Szymanski -->
 
 ### Actors
 TODO: List and describe the actors/users for this product.
@@ -33,8 +33,8 @@ TODO: Describe each use case (at least one per team member).
 TODO: Your Use-Case diagram should include all use-cases.
 
 Use Cases
-![Use Case 1/Jovan](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UserCase1.png)
-![Use Case 2/Eryk](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UseCase2%20toilet%20finder.png)
+![Use Case 1](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UserCase1.png) <!-- Jovan -->
+![Use Case 2](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UseCase2%20toilet%20finder.png)  <!-- Eryk Szymanski -->
 
 
 ## Software Requirements Specification<br>
