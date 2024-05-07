@@ -23,6 +23,5 @@ What are the main risks of this project?
 The app does not update on time if some changes are made with a public toilet or public toilet is removed for some reason. For example if a public toilet is removed from it's original location or relocated and the app us not updated, it could lead the customer to a wrong destination.
 
 ## Project Scope  <!-- Eryk Szymanski -->
-TODO: Scope of the System of Interest. Include a bullet list of things from your context diagram that are in scope.
 
 ![Context Diagram /Eryk](https://github.com/szyma28/szyma28.github.io/blob/3565d4a3e7827ca026637e0df235da0cd487eff6/docs/Images/Context%20diagram.png)
