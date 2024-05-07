@@ -58,7 +58,6 @@ Use Cases
 
 ## Software Requirements Specification<br>
 ### Functional requirements<br>
-###Functional requirements<br>
 **FR1.1 The system should get permission to access user location via geolocation navigator <br>
 **FR1.2 The system should query the database for public toilets from Open Data Bristol<br>
 **FR1.3 The system should centre the map on the user location.<br>
@@ -76,4 +75,7 @@ Indicate which UC the requirement comes from.
 **NFR1.1 App needs to work on mobile for portability purposes.<br>
 **NFR1.2 Source code should always stay up to date and available on the github for maintainability purposes.<br>
 **NFR1.3 Should work on any browser.<br>
+**NFR1.4 When asked to find nearest toilets, app should display up to 5 toilets around the user.<br>
+**NFR1.5 The map should default to bristol if no location data is available.<br>
+**NFR2.1 Data should be up to date.<br>
 
