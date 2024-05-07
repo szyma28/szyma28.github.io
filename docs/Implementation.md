@@ -3,9 +3,20 @@
 ## Introduction
 TODO: Describe the system implemented (Describe the dataset. Are there any known issues? Describe any configuration data).
 
+This system is a search engine for the 166 free public toilets around bristol. Additional details are provided, such as gendered toilets, accessibility information, opening times and more. 
+
 ## Project Structure
 TODO: Provide an outline of the project folder structure and the role of each file within it.
 provide a table listing the number of jslint warnings/reports for each module.
+
+In the Toilet Finder folder, there are three main HTML files and a singular style css file.
+
+Index.html is the landing page that greets you to the page, from which you can go either to "Find nearest toilet" or "Find by Type".
+
+FindNearest.html, which utilises Bristol Open Data API and the Mapbox API to present a map with blue bubble points on the map that show where the toilets are. When clicked on it presents the user with the toilets name and adress.
+Additionaly there is a "Find me on the Map" button which asks the user to allow to share their location, after which a red bubble appears on the users location and they can easily see the closest toilets around them.
+
+Findbytype.html shows a page with a table with all the toilets and available information about them.
 
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
