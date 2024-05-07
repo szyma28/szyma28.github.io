@@ -3,9 +3,6 @@
 ## User Needs
 
 ### User stories  <!-- Eryk Szymanski -->
-TODO: Write brief user stories to explain how various actors would interact with the system to accomplish a goal.
-    Express these in the form from agile development:- As a (role) I want (goal) so that (benefit).
-
 * As a human with needs, I want to find a toilet near me so that i can relieve myself.
 * As someone who forgot their wallet at home, I want to find a free public toilet near me so that i can use it without the need to pay for it.
 * As a parent, I want a baby change accessible toilet to have a safe place where i can change my baby childs nappy.
@@ -14,16 +11,12 @@ TODO: Write brief user stories to explain how various actors would interact with
 * As a occassional drinker, i want to find a toilet opened later at night so that I don't have to do it in the streets.
 
 ### Actors  <!-- Eryk Szymanski -->
-TODO: List and describe the actors/users for this product.
 * Pedestrians 
 * Parents
 * Drunk people
 * People with disabilities
 
 ### Use Cases  <!-- Eryk Szymanski -->
-TODO: Describe each use case (at least one per team member).
-    Give each use case a unique ID, e.g. UC1, UC2, ...
-    Summarise these using the use-case template below.
 
 
  <!-- Eryk Szymanski -->
@@ -57,8 +50,6 @@ TODO: Describe each use case (at least one per team member).
 | **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
 | **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
 
-
-TODO: Your Use-Case diagram should include all use-cases.
 
 Use Cases
 ![Use Case 1](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UserCase1.png) <!-- Jovan -->
