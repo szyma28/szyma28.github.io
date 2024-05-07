@@ -9,7 +9,7 @@ This system is a search engine for the 166 free public toilets around bristol. A
 TODO: Provide an outline of the project folder structure and the role of each file within it.
 provide a table listing the number of jslint warnings/reports for each module.
 
-In the Toilet Finder folder, there are three main HTML files and a singular style css file.
+In the Toilet Finder project, there are three main HTML files and a singular style css file.
 
 Index.html is the landing page that greets you to the page, from which you can go either to "Find nearest toilet" or "Find by Type".
 
@@ -18,10 +18,17 @@ Additionaly there is a "Find me on the Map" button which asks the user to allow 
 
 Findbytype.html shows a page with a table with all the toilets and available information about them.
 
+The style.css provides the visually aesthetic look of all the webpages.
+
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
 ![Insert your component Diagram here](images/component.png)
+
+
+
+
+
 
 ## Bristol Open Data API
 TODO: Document each query to Bristol Open Data
