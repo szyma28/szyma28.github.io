@@ -1,0 +1,100 @@
+<html>
+<head>
+    <title>Closest Toilets</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.1.2/mapbox-gl.js"></script>
+    <style>
+        #map { position: absolute; top: 1; height: 60%; width: 60%; }
+    </style>
+    <!-- links to external stylesheets, fonts, domains  -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- icon links -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- W3 CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <!-- Scripts for the map -->
+    <script src="script.js"> </script>
+    <script language="javascript" src="https://www.nearby.org.uk/tests/geotools2.js"></script>
+     <!-- Mapbox access token -->
+    <script>
+        const MY_TOKEN = "pk.eyJ1Ijoic3p5bWEiLCJhIjoiY2x2djAwYWlxMWd1bjJrcnJ5Z2h0eGlveCJ9.reWGiYpZMKRmzpVr0xay5A";
+    </script>
+</head>
+
+<body>
+    <header class="gold padded">
+        <h1> Toilet Finder</h1>
+    </header>
+    <div class="container">
+        <nav class="sidebar">
+           <!-- defines three buttons for finding the user's location, nearest toilet, and toilet by type -->
+            <button onclick="getLocation('map.html')" class="w3-button w3-block w3-blue w3-margin-top">Find me on the Map</button>
+            <button onclick="location.href='FindNearest.html'" class="w3-button w3-blue w3-block w3-border w3-border-white">Find nearest toilet</button>
+            <button onclick="location.href='findbytype.html'" class="w3-button w3-block w3-blue w3-margin-top">Find by type</button>
+            <main>
+              </script>
+            </main>
+        </nav>
+        <div class="map-container">
+            <div id="map"></div>
+            <!-- Initialize Mapbox Map - sets up the Mapbox map with the access token and initial location -->
+            <script>
+                mapboxgl.accessToken = MY_TOKEN;
+                var map = new mapboxgl.Map({
+                    container: 'map', // container ID
+                    center: [-2.5879, 51.4545], // longitude, latitude
+                    zoom: 14 // zoom level
+                });
+            </script>
+
+             <script>
+                //<!-- Get Query String Parameters - retrieves the latitude and longitude from the query string -->
+                var urlParams = new URLSearchParams(location.search);
+                var lat = urlParams.get('lat');
+                var lon = urlParams.get('lon');
+      
+                mapboxgl.accessToken = MY_TOKEN;
+                var map = new mapboxgl.Map({
+                  container: 'map', // container ID
+                  center: [-2.5879, 51.4545], // longitude, latitude
+                  zoom: 14 // zoom level
+                });
+      
+                // Create marker and add it to the map.
+                var marker = new mapboxgl.Marker().setLngLat([lon, lat]).addTo(map);
+                //<!-- Get Location - defines two functions to get the user's location and show it on the map -->
+                function getLocation() {
+                if (navigator.geolocation) {
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                } else {
+                    alert("Geolocation is not supported by this browser.");
+                }
+                }
+
+                function showPosition(position) {
+                var userLat = position.coords.latitude;
+                var userLon = position.coords.longitude;
+
+                // Create marker and add it to the map.
+                var marker = new mapboxgl.Marker({ color: 'red' }).setLngLat([userLon, userLat]).addTo(map);
+
+                // Create a popup and add it to the marker
+                var popup = new mapboxgl.Popup({ offset: 25 })
+                  .setHTML('<h3>YOU</h3>')
+                  .setLngLat([userLon, userLat]);
+                marker.setPopup(popup);
+
+                // Center the map on the user's location
+                map.setCenter([userLon, userLat]);
+              }
+              
+              </script>
+        </div>
+    </div>
+</body>
+
+</html>

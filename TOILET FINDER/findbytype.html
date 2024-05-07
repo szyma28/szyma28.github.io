@@ -1,0 +1,118 @@
+<html>
+<head>
+    <title>Find By type</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=yes">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!-- icon links -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- W3 CSS -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script>
+    // Function to output the table with the data fetched from the API
+    function outputTable(data) {
+        const tbody = document.getElementById("results").getElementsByTagName("tbody")[0];
+        // Get the features from the data
+        const features = data.features;
+
+        // Loop through each feature
+        features.forEach((feature) => {
+            // Create a new table row
+            const row = document.createElement("tr");
+            tbody.appendChild(row);
+
+            // Get the attributes
+            const attributes = feature.attributes;
+
+            // Loop
+            Object.keys(attributes).forEach((key) => {
+                const cell = document.createElement("td");
+                // Set the text content of the cell
+                cell.textContent = attributes[key];
+                row.appendChild(cell);
+            });
+        });
+    }
+    // Fetch data from the API and call the outputTable function to display the data
+    fetch('https://maps2.bristol.gov.uk/server2/rest/services/ext/ll_community_and_safety/MapServer/25/query?outFields=*&where=1%3D1&f=geojson')
+    .then(response => response.json())
+    .then(data => {
+        const features = data.features;
+        features.forEach(feature => {
+        const properties = feature.properties;
+        const tableRow = `
+    <tr>
+        <td>${properties.TOILET_NAME}</td>
+        <td>${properties.ADDRESS}</td>
+        <td>${properties.POSTCODE}</td>
+        <td>${properties.WARD}</td>
+        <td>${properties.OPENING}</td>
+        <td>${properties.MALE}</td>
+        <td>${properties.URINALS}</td>
+        <td>${properties.FEMALE}</td>
+        <td>${properties.UNISEX}</td>
+        <td>${properties.ACCESS1}</td>
+        <td>${properties.ACC_INFO}</td>
+        <td>${properties.CHANGINGPLACE}</td>
+        <td>${properties.AUTO_OPEN}</td>
+        <td>${properties.PULL_CORD}</td>
+        <td>${properties.RADAR}</td>
+        <td>${properties.BABYCHANGE}</td>
+        <td>${properties.FAMILYTOILET}</td>
+        <td>${properties.AUTOLOO}</td>
+        <td>${properties.ATTENDED}</td>
+        <td>${properties.FULLTIMESTAFF}</td>
+    </tr>
+        `;
+        document.getElementById('results').innerHTML += tableRow;
+        });
+    });          
+</script>
+</table>
+
+</head>
+<body>
+    <header class="gold padded">
+        <h1> Toilet Finder</h1>
+    </header>
+    <div class="container">
+        <div class="sidebar">
+            <!-- defines 2 buttons for nearest toilet and toilet by type -->
+            <button onclick="location.href='FindNearest.html'" class="w3-button w3-blue w3-block w3-border w3-border-white">Find nearest toilet</button>
+            <button onclick="location.href='findbytype.html'" class="w3-button w3-block w3-blue w3-margin-top">Find by type</button>
+        </div>
+         <div class="table-container">
+                    <table id="results">
+                        <thead>
+                            <tr>
+                                <th>TOILET NAME</th>
+                                <th>ADDRESS</th>
+                                <th>POSTCODE</th>
+                                <th>WARD</th>
+                                <th>OPENING TIMES</th>
+                                <th>MALE</th>
+                                <th>URINALS</th>
+                                <th>FEMALE</th>
+                                <th>UNISEX</th>
+                                <th>ACCESSIBLE</th>
+                                <th>ACCESSIBILITY INFO</th>
+                                <th>CHANGING PLACE</th>
+                                <th>AUTO OPEN</th>
+                                <th>PULL CORD</th>
+                                <th>RADAR</th>
+                                <th>BABYCHANGE</th>
+                                <th>FAMILYTOILET</th>
+                                <th>AUTO LOCK</th>
+                                <th>ATTENDED</th>
+                                <th>FULL TIME STAFF</th>
+                              </tr>    
+                            </tr>
+                        </thead>
+                    </table> 
+                </main>
+            </div>
+        </body>
+</body>
+</html>
