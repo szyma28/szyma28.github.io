@@ -23,7 +23,7 @@ The style.css provides the visually aesthetic look of all the webpages.
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
-![Insert your component Diagram here](https://github.com/szyma28/szyma28.github.io/blob/61a2b0d83f947a83663d1aff5628d0da77ec3e2c/docs/Images/Context%20diagram.png)
+![Insert your component Diagram here]([https://github.com/szyma28/szyma28.github.io/blob/61a2b0d83f947a83663d1aff5628d0da77ec3e2c/docs/Images/Context%20diagram.png](https://github.com/szyma28/szyma28.github.io/blob/4599c22c357fa8bfe3c8db9cdd145c9b37531f95/docs/Images/component%20diagram.png))
 
 
 
