@@ -27,6 +27,8 @@ The script.js provides the scripts used for FindNearest.html to save on space an
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
+The architecture of this web app is a client to server model, client side interface built using three html webpages, a css and a javascript doc that interacts with the server of Bristol Open Data API to fetch free public toilet data. Using mapbbox, we're able to have a interactive map that also uses geolocation from the user to also put him on the map.
+
 ![Insert your component Diagram here](https://github.com/szyma28/szyma28.github.io/blob/4599c22c357fa8bfe3c8db9cdd145c9b37531f95/docs/Images/component%20diagram.png)
 
 
