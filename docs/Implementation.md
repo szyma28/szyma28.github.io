@@ -20,6 +20,8 @@ Findbytype.html shows a page with a table with all the toilets and available inf
 
 The style.css provides the visually aesthetic look of all the webpages.
 
+The script.js provides the scripts used for FindNearest.html to save on space and make the HTML more readable.
+
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
