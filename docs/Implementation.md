@@ -23,7 +23,7 @@ The style.css provides the visually aesthetic look of all the webpages.
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
-![Insert your component Diagram here](images/component.png)
+![Insert your component Diagram here](docs/Images/component diagram.png)
 
 
 
