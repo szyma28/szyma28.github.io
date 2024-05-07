@@ -61,8 +61,9 @@ Use Cases
 ###Functional requirements<br>
 **FR1.1 The system should get permission to access user location via geolocation navigator <br>
 **FR1.2 The system should query the database for public toilets from Open Data Bristol<br>
-**FR1.3 The system should centre the map on the user location useing the map object.<br>
-**FR1.4 The system should add markers for each public toilet using the map object.<br>
+**FR1.3 The system should centre the map on the user location.<br>
+**FR1.4 The system should add markers for each public toilet.<br>
+**FR2.1 The system should differentiate between different types of toilets.<br>
 
 
 
@@ -74,3 +75,5 @@ Indicate which UC the requirement comes from.
 
 **NFR1.1 App needs to work on mobile for portability purposes
 **NFR1.2 Source code should always stay up to date and available on the github for maintainability purposes
+**NFR1.3 Should work on any browser
+
