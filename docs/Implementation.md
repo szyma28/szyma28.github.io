@@ -22,6 +22,8 @@ The style.css provides the visually aesthetic look of all the webpages.
 
 The script.js provides the scripts used for FindNearest.html to save on space and make the HTML more readable.
 
+[Folder Structure](https://github.com/szyma28/szyma28.github.io/blob/3fb93ac08550f9f3e5e084815c756e35e5a9c728/docs/Images/FolderStructure.png)
+
 ## Software Architecture
 TODO: Describe the major components of your architecture. Are any particular architectural styles being used?
 
