@@ -67,10 +67,6 @@ Use Cases
 
 
 ### Non-Functional Requirements
-TODO: Consider one or more [quality attributes](https://en.wikipedia.org/wiki/ISO/IEC_9126) to suggest a small number of non-functional requirements.
-Give each non-functional requirement a unique ID. e.g. NFR1, NFR2, ...
-
-Indicate which UC the requirement comes from.
 
 **NFR1.1 App needs to work on mobile for portability purposes.<br>
 **NFR1.2 Source code should always stay up to date and available on the github for maintainability purposes.<br>
