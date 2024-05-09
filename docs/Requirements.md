@@ -51,11 +51,11 @@
 | **Issues** | Not implemented yet |
 
 
-Use Cases
-Use Case 1
+# Use Cases
+## Use Case 1
 ![Use Case 1](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UserCase1.png) <!-- Jovan -->
 
-Use Case 2
+## Use Case 2
 ![Use Case 2](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UseCase2%20toilet%20finder.png)  <!-- Eryk Szymanski -->
 
 <!-- Eryk Szymanski -->
