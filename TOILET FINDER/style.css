@@ -1,3 +1,5 @@
+/* Eryk Szymanski */
+
 nav {
     display: flex;
     justify-content: flex-start;
@@ -109,17 +111,17 @@ th {
 }
 
 .table-container {
-  overflow-x: auto; /* Add this to enable horizontal scrolling if the table is too wide */
+  overflow-x: auto; 
 }
 
 table {
-  width: 100%; /* Make the table take up the full width of its container */
-  height: 400px; /* Set a minimum height for the table */
+  width: 100%;
+  height: 400px; 
   table-layout: fixed;
 }
 
 th, td {
-  font-size: 0.5rem; /* Adjust the font size to your liking */
+  font-size: 0.5rem; 
   max-width: 200px;
   padding: 5px;
   
@@ -127,7 +129,7 @@ th, td {
 }
 
 th {
-  position: sticky; /* Make the header row stick to the top when scrolling */
-  top: 0; /* Position the sticky header at the top of the table */
-  background-color: #f1f1f1; /* Add a background color to the header row */
+  position: sticky;
+  top: 0;
+  background-color: #f1f1f1;
 }
