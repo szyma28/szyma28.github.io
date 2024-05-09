@@ -13,6 +13,7 @@ Current system version supports displaying the toilet database based on the depe
 Tools used: 
 
 Visual Studio code - HTML, CSS and JavaScript
+
 Draw.io - Diagrams
 
 
