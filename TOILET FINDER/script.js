@@ -1,7 +1,7 @@
 
        /**
      * This function generates a table from JSON data.
-     * 
+     * <!-- Eryk Szymanski -->
      */
        function outputTable(json) {
         let element = document.getElementById("results");
