@@ -31,5 +31,5 @@ The architecture of this web app is a client to server model, client side interf
 
 
 ## Bristol Open Data API
-
+The website queries the API and fetches all the attributes of the toilets, the location to put them on the map and other characteristics to collect all the information about them it can for better filtering results.
 ![UML Class diagrams representing JSON query results](https://github.com/szyma28/szyma28.github.io/blob/c14f8cf7a49933ab19a9db5e1f96a7cbf99f4b4f/docs/Images/UML%20DIAGRAM.png)
