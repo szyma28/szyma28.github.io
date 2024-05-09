@@ -16,7 +16,7 @@ Visual Studio code - HTML, CSS and JavaScript
 Draw.io - Diagrams
 
 
-![Insert Deployment diagram here](images/deployment.png)
+![Insert Deployment diagram here](https://github.com/szyma28/szyma28.github.io/blob/3ce9a3fb54c4d45f5898ee01b9ed133bd9aecda2/docs/Images/UML%20DEPLOYMENT.png)
 
 # User guide
 TODO: Explain how each use-case works by providing step-by-step screenshots for each use-case. This should be based on a tested scenario.
