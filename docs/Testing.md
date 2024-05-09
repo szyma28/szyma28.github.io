@@ -12,7 +12,7 @@ Below are the tests I ran to check if the webpage meets both the functional and 
 | General | Webpage should work on any browser | 3 different test browsers | Opened on Firefox, Opera and safari |
 | General | Data is fetched in timely manner | Optimized code | When finding by type, the data should be displayed quickly, the user doesn't have to wait long, wait times vary though |
 
-Test Runs
+##Test Runs
 
 | Use-Case ID | Requirement ID | Test Case | Status |
 | ----------- | -------------- | --------- | ------ |
