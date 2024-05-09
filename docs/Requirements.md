@@ -63,6 +63,7 @@ Use Cases
 **FR1.3 The system should centre the map on the user location.<br>
 **FR1.4 The system should add markers for each public toilet.<br>
 **FR2.1 The system should differentiate between different types of toilets.<br>
+**FR3.1 The system should guide the user to the toilet using map navigation.<br>
 
 
 
