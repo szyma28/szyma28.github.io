@@ -1,5 +1,5 @@
 # Testing
-
+<!--Eryk Szymanski-->
 ## Test Plan
 Below are the tests I ran to check if the webpage meets both the functional and non-functional requirements.
 
