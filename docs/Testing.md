@@ -20,5 +20,12 @@ Create a requirements traceability matrix to validate the completeness of the pr
 
 | Use-Case ID | Requirement ID | Test Case | Status |
 | ----------- | -------------- | --------- | ------ |
+| UC1 | FR1.1 | The system should get permission to access user location via geolocation navigator | Pass |
+| UC1| FR1.2 | The system should query the database for public toilets from Open Data Bristol| Pass |
+| UC1 | FR1.3 | The system should centre the map on the user location | PASS |
+| UC1 | FR1.4 | The system should add markers for each public toilet. | PASS |
+| UC2 | FR2.1 | The system should differentiate between different types of toilets. | FAIL / NOT IMPLEMENTED YET |
+| ----------- | -------------- | --------- | ------ |
+
 
 TODO: Add rows for each test, current status is eg. pass/fail
