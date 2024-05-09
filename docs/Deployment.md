@@ -8,7 +8,7 @@ Describe the deployment of software components to hardware nodes using a UML Dep
 
 ## Version 0.9.1
 
-Current system version supports displaying the toilet database based on the dependancy of Bristol Open Data API, and displaying them on the map based on the MapBox dependancy. Filtering the toilets (UC2) has not been properly implemented yet due to time and manpower constraint.
+Current system version supports displaying the toilet database based on the dependancy of Bristol Open Data API, and displaying them on the map based on the MapBox dependancy. Filtering the toilets (UC2) and navigation to target (UC3) has not been properly implemented yet due to time and manpower constraint.
 
 Tools used: 
 
