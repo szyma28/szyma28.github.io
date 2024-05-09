@@ -55,7 +55,7 @@ Use Cases
 ![Use Case 1](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UserCase1.png) <!-- Jovan -->
 ![Use Case 2](https://github.com/szyma28/szyma28.github.io/blob/main/docs/Images/UseCase2%20toilet%20finder.png)  <!-- Eryk Szymanski -->
 
-
+<!-- Eryk Szymanski -->
 ## Software Requirements Specification<br>
 ### Functional requirements<br>
 **FR1.1 The system should get permission to access user location via geolocation navigator <br>
@@ -69,10 +69,10 @@ Use Cases
 
 ### Non-Functional Requirements
 
-**NFR1.1 App needs to work on mobile for portability purposes.<br>
-**NFR1.2 Source code should always stay up to date and available on the github for maintainability purposes.<br>
-**NFR1.3 Should work on any browser.<br>
-**NFR1.4 When asked to find nearest toilets, app should display up to 5 toilets around the user.<br>
-**NFR1.5 The map should default to bristol if no location data is available.<br>
-**NFR2.1 Data should be up to date.<br>
+**NFR1.1 App needs to work on mobile for portability purposes.<br>  <!-- Jovan -->
+**NFR1.2 Source code should always stay up to date and available on the github for maintainability purposes.<br> <!-- Eryk Szymanski -->
+**NFR1.3 Should work on any browser.<br> <!-- Eryk Szymanski -->
+**NFR1.4 When asked to find nearest toilets, app should display up to 5 toilets around the user.<br> <!-- Eryk Szymanski -->
+**NFR1.5 The map should default to bristol if no location data is available.<br> <!-- Eryk Szymanski -->
+**NFR2.1 Data should be up to date.<br> <!-- Eryk Szymanski -->
 
