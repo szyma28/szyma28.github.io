@@ -25,30 +25,30 @@
 | **Description** | Show the user and the toilet on the map |
 | **Actors** | Pedestrian |
 | **Assumptions** | User agreed to share their location</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Steps** | 1. Allow location services to find the user. 2. View the map with the user and toilets displayed on it |
+| **Variations** | --- |
+| **Non-functional** | --- |
+| **Issues** | --- |
  <!-- Eryk Szymanski -->
 | USE-CASE UC2 | Find a toilet with baby changing |
 | -------------------------------------- | ------------------- |
 | **Description** | Filter the toilets to ones with baby changing options |
 | **Actors** | Parent |
 | **Assumptions** | User agreed to share their location</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Steps** | 1. Display toilets by type. 2. Filter the toilets (not implemented) |
+| **Variations** | --- |
+| **Non-functional** | --- |
+| **Issues** | Filtering not implemented yet, displaying filtered toilets on the map has not been implemented yet |
  <!-- Eryk Szymanski -->
 | USE-CASE UC3 | Provide directions to the nearest toilet |
 | -------------------------------------- | ------------------- |
 | **Description** | Show the user and the toilet on the map and guide them to it |
 | **Actors** | Drunk person |
 | **Assumptions** | User agreed to share their location</td></tr>
-| **Steps** | TODO: Interactions between actors and system necessary to achieve goal |
-| **Variations** | TODO: OPTIONAL - Any variations in the steps of a use case |
-| **Non-functional** | TODO: OPTIONAL - List of non-functional requirements that the use case must meet. |
-| **Issues** | TODO: OPTIONAL - List of issues that remain to be resolved |
+| **Steps** | Not implemented yet |
+| **Variations** | --- |
+| **Non-functional** | --- |
+| **Issues** | Not implemented yet |
 
 
 Use Cases
