@@ -5,6 +5,17 @@ TODO: Describe the current version of the system (with version number. Include s
 Are there any known issues? 
 Describe the deployment of software components to hardware nodes using a UML Deployment diagram.
 
+
+## Version 0.9.1
+
+Current system version supports displaying the toilet database based on the dependancy of Bristol Open Data API, and displaying them on the map based on the MapBox dependancy. Filtering the toilets (UC2) has not been properly implemented yet due to time and manpower constraint.
+
+Tools used: 
+
+Visual Studio code - HTML, CSS and JavaScript
+Draw.io - Diagrams
+
+
 ![Insert Deployment diagram here](images/deployment.png)
 
 # User guide
